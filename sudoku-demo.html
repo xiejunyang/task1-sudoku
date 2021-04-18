@@ -1,0 +1,41 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>九宫格效果</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            .clearfix::after{
+                content: "";
+                display: block;
+                clear: both;
+            }
+            .sudoku-container>div{
+                float: left;
+                margin: 2.5% 0 0 2.5%;
+                padding-bottom: 30%;
+                width: 30%;
+                background-color: orange;
+                border-radius: 5%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="sudoku-container clearfix">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </ul>
+        </div>
+    </body>
+</html>
